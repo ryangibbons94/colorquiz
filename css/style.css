@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+}
+
+a{
+    display: inline-block;
+    text-align: center;
+    border: 1px solid black;
+    width: 10rem;
+    margin-top: 3rem;
+    padding: 1rem;
+    background-color: white;
+    border-radius: 10px;
+    text-decoration: none;
+    color: black;
+}
+
+#answerarea{
+    display: flex;
+    justify-content: center;
+    gap: 5rem;
+
+}
+
+.answer{
+    border: 1px solid black;
+    padding: 1rem;
+    border-radius: 10px;
+}
+
+
+#colorArea{
+    width: 50vw;
+    height: 50vh;
+}
