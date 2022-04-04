@@ -9,6 +9,7 @@ let score = 0
 let num
 const answers = document.querySelectorAll('.answer')
 
+
 Array.from(answers).forEach(element => element.addEventListener('click', checkScore))
 
 scoreHere.innerText = score
